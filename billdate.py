@@ -32,7 +32,7 @@ _maxNumRetries = 10
 
 #Extracting text from the json file
 def print_the_text(res,stat):
-    texts = ''
+    texts = ' '
     if stat=="printed":
         for item in res['regions']:
             for line in item['lines']:
